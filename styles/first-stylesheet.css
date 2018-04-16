@@ -1,0 +1,31 @@
+
+img {
+  width: 25%
+}
+aside {
+  height: 10rem;
+  background-color :aqua;
+  text-align: center;
+  width: 25%;
+  margin: auto;
+}  
+article {
+  padding: 5rem; 
+  background: linear-gradient(to bottom right, cornflowerblue, aqua); 
+  width: 50%;
+  margin: auto;
+}
+a:link {
+  color: fuchsia;
+}
+
+a:visited{
+  color:purple;
+}
+
+aside p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 16px == 1rem */
+html { font-size: 16px; }
