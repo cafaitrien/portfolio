@@ -1,0 +1,62 @@
+
+img {
+  width: 50%
+}
+
+/* 16px == 1rem */
+html { font-size: 16px; }
+
+
+aside {
+  width: 5rem;
+}  
+article {
+  
+  width: 40rem;
+  height: 15rem;
+  margin: auto;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: wrap;
+  height: 1rem;
+  width: 40rem; 
+}
+
+a:link {
+  color: fuchsia;
+}
+
+a:visited{
+  color:purple;
+}
+
+.container > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: linear-gradient(to bottom right, cornflowerblue, yellow);
+  text-align: right;
+  word-spacing: 1rem;
+}
+
+.footer {
+  background: linear-gradient(to bottom right, gold, purple);
+  text-align: center;
+}
+
+.main {
+  background: linear-gradient(to right, aqua, cornflowerblue); 
+  text-align: left;
+  margin: auto;
+}
+
+
+.aside {
+  background: linear-gradient(to right, azure, aliceblue); 
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
