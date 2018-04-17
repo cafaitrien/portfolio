@@ -2,19 +2,32 @@
 img {
   width: 25%
 }
+
+/* 16px == 1rem */
+html { font-size: 16px; }
+
+
 aside {
-  height: 10rem;
-  background-color :aqua;
+  
   text-align: center;
-  width: 25%;
+  width: 5rem;
   margin: auto;
+  font-family: "Times New Roman", Times, serif;
 }  
 article {
-  padding: 5rem; 
-  background: linear-gradient(to bottom right, cornflowerblue, aqua); 
-  width: 50%;
+  
+  width: 40rem;
+  height: 15rem;
   margin: auto;
 }
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  height: 1rem;
+  width: 40rem; 
+}
+
 a:link {
   color: fuchsia;
 }
@@ -23,9 +36,30 @@ a:visited{
   color:purple;
 }
 
-aside p {
-  font-family: "Times New Roman", Times, serif;
+.container > * {
+  padding: 10px;
+  flex: 1 100%;
 }
 
-/* 16px == 1rem */
-html { font-size: 16px; }
+.header {
+  background: linear-gradient(to bottom right, cornflowerblue, yellow);
+  text-align: right;
+  word-spacing: 1rem;
+}
+
+.footer {
+  background: linear-gradient(to bottom right, gold, purple);
+  text-align: center;
+}
+
+.main {
+  background: linear-gradient(to right, aqua, cornflowerblue); 
+  text-align: left;
+  margin: auto;
+}
+
+
+.aside {
+  background: linear-gradient(to right, aqua, cornflowerblue); 
+  text-align: center;
+}
