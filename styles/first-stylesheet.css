@@ -38,7 +38,7 @@ a:visited{
 }
 
 .header {
-  background: linear-gradient(to bottom right, cornflowerblue, yellow);
+  background: linear-gradient(to bottom, lightblue, yellow);
   text-align: right;
   word-spacing: 1rem;
 }
@@ -49,14 +49,36 @@ a:visited{
 }
 
 .main {
-  background: linear-gradient(to right, aqua, cornflowerblue); 
+  background: lightblue;
+  background-image: url(../Images/img_tree.png);
+/*  Image source https://lh5.googleusercontent.com/-ZBLYo1oD6bM/UHox3oBICxI/AAAAAAAAAgo/yCg6TcxLeC4/s358/img_tree.png*/
+  background-repeat: no-repeat;
+  background-size: 50px 89px;
+  background-position: center bottom;
   text-align: left;
   margin: auto;
 }
 
-
 .aside {
-  background: linear-gradient(to right, azure, aliceblue); 
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  background: lightblue;   
+}
+
+
+/* Google Fonts and Font Awesome Added April 29 */
+
+body, p {
+    font-family: 'Roboto';
+    font-size: 1em;
+}
+
+nav, h1, h2, h3, h4, h5, h6, footer {
+    font-family: 'Amaranth';
+}
+
+i {
+    margin-right: 5px;
+}
+
+footer {
+    clear: both;
 }
