@@ -36,18 +36,18 @@ a:visited{
 }
 
 .header {
-  background: linear-gradient(to top, grey, darkgray);
+  background: linear-gradient(to top, grey, lightgray);
   text-align: center;
   word-spacing: 1rem;
 }
 
 .footer {
-  background: linear-gradient(to bottom top, grey, darkgray);
+  background: linear-gradient(to bottom top, grey, lightgray);
   text-align: center;
 }
 
-.main {
-  background: ghostwhite;
+.main_project {
+  background:ghostwhite;
   background-image: url(../Images/img_tree.png);
 /*  Image source https://lh5.googleusercontent.com/-ZBLYo1oD6bM/UHox3oBICxI/AAAAAAAAAgo/yCg6TcxLeC4/s358/img_tree.png*/
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ a:visited{
 }
 
 .aside {
-  background-color: ghostwhite;   
+  background-color: lightgray;   
 }
 
 
